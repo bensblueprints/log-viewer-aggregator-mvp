@@ -1,0 +1,23 @@
+services:
+  logbin:
+    build: .
+    container_name: logbin
+    restart: unless-stopped
+    ports:
+      - "5347:5347"
+      - "5514:5514/udp"
+    environment:
+      - PORT=5347
+      - SYSLOG_PORT=5514
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:-change-me}
+      - DB_PATH=/app/data/logbin.db
+      - SMTP_HOST=${SMTP_HOST:-}
+      - SMTP_PORT=${SMTP_PORT:-587}
+      - SMTP_USER=${SMTP_USER:-}
+      - SMTP_PASS=${SMTP_PASS:-}
+      - SMTP_FROM=${SMTP_FROM:-}
+    volumes:
+      - logbin-data:/app/data
+
+volumes:
+  logbin-data:
