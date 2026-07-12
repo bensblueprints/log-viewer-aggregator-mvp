@@ -66,7 +66,7 @@ Node 20+ · Express · better-sqlite3 (WAL, indexed on source+time+level) · SSE
 
 ## ☕ Skip the setup — get the 1-click installer
 
-Grab the packaged version: **[https://whop.com/onetime-suite](https://whop.com/onetime-suite)** — pay once, own it forever, no subscription.
+Grab the packaged version: **[https://whop.com/benjisaiempire/logbin](https://whop.com/benjisaiempire/logbin)** — pay once, own it forever, no subscription.
 
 ## License
 
