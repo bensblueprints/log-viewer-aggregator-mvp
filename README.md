@@ -1,5 +1,9 @@
 # 🪵 Logbin
 
+## Demo
+
+VIDEO-PLACEHOLDER
+
 **Self-hosted log aggregation with live tail, search, and alert rules. Flat price, your box, forever — no Papertrail meter running.**
 
 ![MIT](https://img.shields.io/badge/license-MIT-green) ![Node](https://img.shields.io/badge/node-%3E%3D20-brightgreen)
