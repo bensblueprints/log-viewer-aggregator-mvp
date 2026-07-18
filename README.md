@@ -2,7 +2,11 @@
 
 ## Demo
 
-VIDEO-PLACEHOLDER
+
+
+https://github.com/user-attachments/assets/946ac4a8-719e-4979-ba6a-c09e1b215cf1
+
+
 
 **Self-hosted log aggregation with live tail, search, and alert rules. Flat price, your box, forever — no Papertrail meter running.**
 
